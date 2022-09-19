@@ -33,3 +33,9 @@ void ChangeArray(string[] array, string[] array2)
     
 }
 
+Console.WriteLine("Введите размер массива: ");
+int size = int.Parse(Console.ReadLine() ?? "0");
+string[] array = new string[size];
+string[] copyarray = new string[size];
+FillArray(array);
+Console.WriteLine("Заданный массив:");
