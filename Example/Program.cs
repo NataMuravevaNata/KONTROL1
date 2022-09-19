@@ -39,3 +39,8 @@ string[] array = new string[size];
 string[] copyarray = new string[size];
 FillArray(array);
 Console.WriteLine("Заданный массив:");
+PrintArray(array);
+Console.WriteLine("");
+ChangeArray(array, copyarray);
+Console.WriteLine("Новый массив с перенесенными значениями: ");
+PrintArray(copyarray);
